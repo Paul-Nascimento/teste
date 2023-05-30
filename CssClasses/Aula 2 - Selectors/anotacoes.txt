@@ -1,0 +1,37 @@
+Seletores são uma forma de identificar quais elementos estão sendo indicados
+no nosso arquivo CSS, para N aplicações. Eles se referem a elementos HTML e 
+são identificados de varias formas as principais são:
+
+via tag:
+
+nomeDaTag {
+    aplicacao
+}
+
+via classe:
+
+.nomeDaClasse {
+    aplicacao
+}
+
+via ID
+
+#nomeDoID {
+
+    aplicacao
+}
+
+Dessa forma, consigo localizar os elementos que gostaria de realizar
+alguma alteração e, a partir disso, estilizar o meu documento HTML.
+
+Além disso, o seletor que está mais em baixo sobrepõe o que está mais em cima.
+Dessa forma, é importante organizar bem o código para não acabar sendo afetado por isso
+
+
+vale lembrar, que o seletor:
+
+* {
+    aplicacao
+}
+
+seleciona TODOS os elementos ao mesmo tempo.
